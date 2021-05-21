@@ -1,3 +1,4 @@
+// @ts-check
 // contact form/update 05/march/2020
 
 const handleSubmit = (e) => {
@@ -7,7 +8,7 @@ const handleSubmit = (e) => {
   fetch('/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams(formData).toString(),
+    body: new URLSearchParams(formData).toString()
   })
     .then(() => console.log('Form successfully submitted'))
     .catch((error) => alert(error))
