@@ -8,10 +8,12 @@
     <title>{{ settings.title }}</title>
     <meta name="description" content="title" />
     <meta name="author" content="author" />
-    <script
-      src="https://kit.fontawesome.com/e2ffdf4c70.js"
-      crossorigin="anonymous"
-    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css"
+      media="all"
+    />
+
     <!-- load the critical styles inline -->
     {% set css %} {% include "src/css/cover-page.css" %} {% endset %}
     <!-- feed it through our cssmin filter to minify -->

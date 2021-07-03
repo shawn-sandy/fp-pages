@@ -14,7 +14,6 @@
   "editor.tabSize": 2,
   "workbench.tree.indent": 4,
   "xd.globalEditor": true,
-  "jshint.options": {
-    "esversion": 6,
-    }
+  "prettier.singleQuote": true,
+  "typescript.format.semicolons": "remove"
 }
