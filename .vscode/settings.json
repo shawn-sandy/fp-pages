@@ -15,5 +15,8 @@
   "workbench.tree.indent": 4,
   "xd.globalEditor": true,
   "prettier.singleQuote": true,
-  "typescript.format.semicolons": "remove"
+  "typescript.format.semicolons": "remove",
+  "conventionalCommits.scopes": [
+    "upgrades"
+  ]
 }
