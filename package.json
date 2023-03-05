@@ -74,7 +74,7 @@
     "@babel/preset-env": "^7.14.7",
     "@shawnsandy/first-paint": "^2.0.0",
     "babel-watch": "^7.4.1",
-    "commitizen": "^4.2.4",
+    "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.29.0",
     "eslint-config-standard": "^16.0.3",
